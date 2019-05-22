@@ -1,0 +1,510 @@
+
+@font-face{
+     font-family: Montserrat-Medium;
+     src: url(../font/Montserrat-Medium.ttf);
+}
+@font-face{
+     font-family: futura;
+     src: url(../font/Poppins-Light.ttf);
+}
+@font-face{
+     font-family: Poppins-Bold;
+     src: url(../font/Poppins-Bold.ttf);
+}
+body{
+     margin: 0;
+     background-color: rgba(0,0,0,0.05);
+}
+.banner1{
+     width: 100%;
+     height: 700px;
+     background-color: rgba(0,0,0,0.85);
+/*     background-image: url(../img/vin.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;  */
+}
+    .content{
+         background-color: white;
+         height: 75px;
+         }
+    .navbar{
+         position: fixed;
+         top: 0;
+         width: 100%;
+         z-index: 99;
+/*         opacity: 0.1;*/
+    }
+    .navbar-default {
+         background-color: #f8f8f8;
+         border: none;
+         box-shadow: 0px 3px 12px rgba(0,0,0,0.08);
+    }
+    .navbar-header {
+         height: 75px;
+    }
+    .navbar-default .navbar-brand {
+         font-family: Montserrat-Medium;
+         font-size:20px;
+         background-color: white;
+         color: rgba(0,0,0,0.85);
+         padding: 28px 0 28px 36px;
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+         color: #555;
+         background-color: transparent;
+    }
+    @media screen and (max-width: 767px){
+    .navbar-collapse {
+         height: 195px; 
+         background-color: #1b1d1f;
+         font-family: Montserrat-Medium;
+         font-size:13px;
+         transition: all .3s cubic-bezier(0.89, 0.04, 0.58, 1);
+       }
+    .navbar-default .navbar-nav>li>a {
+         color: white;
+         line-height: 18px;
+       }
+    .navbar-nav {
+         margin: 21px 6px;
+         padding-left: 0;
+         color: white;
+       }
+    }
+    @media screen and (min-width: 768px){
+    .navbar-collapse{
+         float: right;
+         margin-top: 12px;
+         margin-bottom: 12px;
+         font-family: Montserrat-Medium;
+    }
+    }
+    .navbar-default .navbar-toggle {
+         margin: 20px 10px 0 0;
+         border: none;
+    }
+.bg1{
+     width: 100%;
+     height: 450px;
+     background-color: rgba(0,0,0,0.85);
+/*     background-image: url(../img/bike.jpg);
+     background-size: cover;
+     background-position: center; */
+}
+    @media screen and (max-width: 767px){
+    .bg1-title{
+          font-family: Poppins-Bold;
+          font-size: 45px;
+          padding-top: 45px;
+          color: white;
+          text-align: center;
+      }
+    .bg1-descript{
+          font-family: Poppins-Light;
+          font-size: 10px;
+          padding-top: 10px;
+          color: white;
+          text-align: center;
+      }
+     } 
+    @media screen and (min-width: 768px){
+    .bg1-title{
+          font-family: Poppins-Bold;
+          font-size: 65px;
+          padding-top: 65px;
+          color: white;
+          text-align: center;
+      }
+    .bg1-descript{
+          font-family: Poppins-Light;
+          font-size: 18px;
+          padding-top: 10px;
+          color: white;
+          text-align: center;
+        }
+     } 
+     .container1{
+          width: 75%;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 80px;
+     }
+    .row1{
+         padding: 15px;
+         height: 450px;
+         background: white;
+         border: 1px solid rgba(0,0,0,0.06)
+    }
+    @media screen and (max-width: 767px){
+         .row1:nth-child(2){display: none;}
+         .row1:nth-child(3){display: none;}
+         .row1:nth-child(4){display: none;}
+      } 
+    @media screen and (min-width: 768px) and (max-width: 991px){
+         .row1:nth-child(3){display: none;}
+         .row1:nth-child(4){display: none;}
+      } 
+    @media screen and (min-width: 992px) and (max-width: 1199px){
+         .row1:nth-child(4){display: none;}
+      } 
+    .time{
+         font-family: fingfang SC;
+         font-weight: bolder;
+         font-size: 14px;
+         color: rgba(0,0,0,0.8);
+         margin: 40px 20px 20px 20px;
+    }
+    .title2{
+         font-family: fingfang SC;
+         font-weight: bolder;
+         font-size: 26px;
+         color: rgba(0,0,0,0.8);
+         margin: 0 20px;
+    }
+    .my-button{
+/*               margin:20vw 0 0 30px;*/
+         padding: 16px 40px;
+         border-radius: 2px;
+         background: rgba(0,0,0,0.8);
+         border:none;
+         outline: none;
+         font-family: Montserrat-Medium;
+         font-size: 13px;
+         color: white;
+         box-sizing: border-box;
+         position: absolute;
+         left: 35px;
+         bottom: 50px;
+    }
+    .my-button:hover{
+         background: white;
+         color: rgba(0,0,0,0.8);
+         box-shadow: 1px 1px 0 #000;
+    }
+
+
+@media screen and (max-width: 767px){
+.bg2{
+     width: 100%;
+     height: 200px;
+     background-color: white;
+     margin-top: 280px;
+}
+    .bg2-title{
+          font-family: Poppins-Bold;
+          font-size: 45px;
+          padding-top: 45px;
+          color: rgba(0,0,0,0.8);
+          text-align: center;
+      }
+    .bg2-descript{
+          font-family: Poppins-Light;
+          font-size: 10px;
+          padding-top: 10px;
+          color: rgba(0,0,0,0.8);
+          text-align: center;
+      }
+     } 
+@media screen and (min-width: 768px){
+.bg2{
+     width: 100%;
+     height: 280px;
+     background-color: white;
+     margin-top: 350px;
+}
+    .bg2-title{
+          font-family: Poppins-Bold;
+          font-size: 65px;
+          padding-top: 65px;
+          color: rgba(0,0,0,0.8);
+          text-align: center;
+      }
+    .bg2-descript{
+          font-family: Poppins-Light;
+          font-size: 18px;
+          padding-top: 10px;
+          color: rgba(0,0,0,0.8);
+          text-align: center;
+        }
+     } 
+ .container2{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+ }
+    .card{
+      padding: 0;
+      transition: all .2s ease-in-out;
+    }
+    .img-work{
+      background-color: white;
+      padding-top: 100%;
+      background-size: 50%;
+      background-position: center; 
+      background-repeat: no-repeat;
+      border: 1px solid rgba(0,0,0,0.06);
+      transition: all .2s ease-in-out;
+    }
+    .carousel-indicators {
+      margin-bottom: -80px;
+    }
+    .carousel-indicators>li {
+      border: 2px solid rgba(0,0,0,0.3);
+    }
+    li:active{
+      color: rgba(0,0,0,0.);
+    }
+    .cover{
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      position: absolute;
+      transition: all .2s ease-in-out;
+    }
+    .card:hover .img-work{
+      background-size: 30%;
+      transition: all .2s ease-in-out;
+    }
+    .card:hover .cover{
+      background-color: rgba(0, 0, 0, 0.4);
+      transition: all .3s ease-in-out;
+    }
+    @media screen and (max-width: 767px){
+         .card:nth-child(2){display: none;}
+         .card:nth-child(3){display: none;}
+         .card:nth-child(4){display: none;}
+      } 
+    @media screen and (min-width: 768px) and (max-width: 991px){
+         .card:nth-child(3){display: none;}
+         .card:nth-child(4){display: none;}
+      } 
+    @media screen and (min-width: 992px){
+         .card:nth-child(4){display: none;}
+      } 
+    
+
+.bg3{
+     width: 100%;
+     margin-top: 60px;
+     display: inline-block;
+    }
+@media screen and (max-width: 767px){
+
+    .bg3-title{
+          font-family:Poppins-Bold;
+          font-size: 45px;
+          padding-top: 45px;
+          color: rgba(0,0,0,0.8);
+          text-align: center;
+    }
+    .bg3-descript{
+          font-family: Poppins-Light;
+          font-size: 10px;
+          padding-top: 10px;
+          color: rgba(0,0,0,0.8);
+          text-align: center;
+    }
+    .container3{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+} 
+@media screen and (min-width: 768px){
+
+    .bg3-title{
+        font-family: Poppins-Bold;
+        font-size: 65px;
+        padding-top: 65px;
+        color: rgba(0,0,0,0.8);
+        text-align: center;
+    }
+    .bg3-descript{
+        font-family: Poppins-Light;
+        font-size: 18px;
+        padding-top: 10px;
+        color: rgba(0,0,0,0.8);
+        text-align: center;
+    }
+    .container3{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+}
+
+    .row3{
+         padding: 15px;
+         height: 420px;
+         background: white;
+         position: relative;
+         border: 1px solid rgba(0,0,0,0.06);
+    }
+@media screen and (max-width: 767px){
+         .row3:nth-child(2){display: none;}
+         .row3:nth-child(3){display: none;}
+      } 
+@media screen and (min-width: 768px) and (max-width: 991px){
+         .row3:nth-child(3){display: none;}
+      } 
+@keyframes mymove{
+         0%{transform: rotate(0deg); }
+         50%{transform: rotate(-360deg); }
+         100%{transform: rotate(0deg); }
+    }
+    .animation-move{
+         animation:mymove 2s 0.5;
+    }
+    .icon-email{
+         margin-top: 40px;
+         height: 70px;
+         background-image: url(../img/信封.svg);
+         background-size: 25%;
+         background-position: center; 
+         background-repeat: no-repeat;
+         transition: all 0.2s ease-in-out;
+    }
+    .icon-phone{
+         margin-top: 40px;
+         height: 70px;
+         background-image: url(../img/电话.svg);
+         background-size: 20%;
+         background-position: center; 
+         background-repeat: no-repeat;
+         transition: all 0.2s ease-in-out;
+    }
+    .icon-wechat{
+         margin-top: 40px;
+         height: 70px;
+         background-image: url(../img/微信.svg);
+         background-size: 28%;
+         background-position: center; 
+         background-repeat: no-repeat;
+         transition: all 0.2s ease-in-out;
+    }
+/*    .icon-email .icon-phone .icon-wechat:hover{
+         transform: rotate(-360deg);
+         transition: all 0.2s ease-in-out;
+    }*/
+    .title3{
+         font-family: Montserrat-Medium;
+         font-size: 26px;
+         color: rgba(0,0,0,0.8);
+         text-align: center;
+         margin-top: 20px;
+    }
+    .text{
+         font-family: fingfang SC;
+         font-weight: lighter;
+         font-size: 14px;
+         color: rgba(0,0,0,0.8);
+         text-align: center;
+         margin-top: 10px;
+    }
+    .text1{
+         font-family: Montserrat-Medium;
+         font-size: 14px;
+         color: rgba(0,0,0,0.8);
+         text-align: center;
+         margin-top: 120px;
+    }
+.to-top{
+  width: 50px;
+  height: 50px;
+  background-color: #1b1d1f;
+  border-radius: 4px;
+/*    position: absolute;*/
+  position: fixed;
+  right: 12px;
+  bottom: 80px;
+  text-align: center;
+  line-height: 50px;
+  font-family: Montserrat-Medium;
+  color: white;
+  font-size: 14px;
+  z-index: 98;
+}
+.container4{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.item{
+  background: white;
+  border: 1px solid rgba(0,0,0,0.06);
+/*  border-radius: 14px;*/
+  position: relative;
+  transition: all .2s ease-in-out;
+}
+.img{
+  padding-top: 100%;
+  background-size: 50%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  transition: all .2s ease-in-out;
+}
+.cover2{
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  transition: all .2s ease-in-out;
+/*  border-radius: 6px;*/
+  position: absolute;
+}
+.img:hover{
+  background-size: 30%;
+  transition: all .2s ease-in-out;
+}
+.img:hover .cover2{
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all .3s ease-in-out;
+}
+.select-list{
+  width:100%;
+  margin: 100px 0 30px 10px;
+  float: left;
+  list-style:none;
+  padding: 0 10px;
+  font-family: Montserrat-Medium;
+  font-size:13px;
+  color: #3D3D3D;
+  display: inline-block;
+/*  right: 12px;*/
+  }
+.select{
+  display: inline;
+  padding: 0 10px;
+  }
+.select:hover{
+  color: #949494;
+  }
+.active1{
+  color: #949494;
+}
+.footer{
+  width: 100%;
+  height: 195px;
+  background-color: #141618;
+  margin-top: 35em;
+  position: absolute;
+}
+.footer-last{
+  font-family: Montserrat-Medium;
+  font-size: 13px;
+  color: white;
+  padding-top: 36px;
+  display: flex;
+  justify-content: center;
+}

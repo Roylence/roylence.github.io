@@ -9,6 +9,10 @@ body{
      font-family: Poppins-Medium;
      src: url(../font/Poppins-Medium.ttf);
 }
+@font-face{
+     font-family: Poppins-Light;
+     src: url(../font/Poppins-Medium.ttf);
+}
     .content{
          background-color: white;
          height: 75px;
@@ -67,7 +71,7 @@ body{
          float: right;
          margin-top: 12px;
          margin-bottom: 12px;
-         font-family: Montserrat-Medium;
+         font-family: Poppins-Medium;
     }
     .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover {
          color: #1b1d1f;

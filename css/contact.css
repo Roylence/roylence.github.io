@@ -11,7 +11,7 @@ body{
 }
 @font-face{
      font-family: Poppins-Light;
-     src: url(../font/Poppins-Medium.ttf);
+     src: url(../font/Poppins-Light.ttf);
 }
     .content{
          background-color: white;

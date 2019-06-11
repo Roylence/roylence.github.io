@@ -189,7 +189,7 @@ body{
 }
 @media screen and (min-width: 768px){
 .education{
-  margin-top: 0;
+  margin-top: 100px;
 }
 .title {
     font-family: Poppins-Medium;
@@ -210,7 +210,7 @@ body{
   line-height: 40px;
 }
 .context{
-  margin-top: -75px;
+  margin-top: -95px;
 }
 .sub-title{
   font-family: Poppins-Medium;
@@ -218,7 +218,7 @@ body{
   font-size: 14px;
   color: #1b1d1f;
   text-align: left;
-  margin: 45px 20px 20px 34vw;
+  margin: 70px 20px 20px 34vw;
   line-height: 26px;
 }
 .text2{
@@ -227,8 +227,7 @@ body{
   font-size: 14px;
   color: rgba(0,0,0,0.7);
   text-align: left;
-  margin-left: 34vw;
-  margin-top: -5px;
+  margin: 15px 10vw 0 34vw;
   line-height: 40px;
 }
 .footer{

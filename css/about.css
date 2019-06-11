@@ -1,6 +1,7 @@
 body{
      margin: 0;
-     background-color: #141618;
+/*     background-color: #141618;*/
+     background-color: white;
 }
 @font-face{
      font-family: Poppins-Bold;
@@ -100,20 +101,20 @@ body{
 .title{
   font-family: Poppins-Medium;
   font-size: 20px;
-  color: white;
-  margin-top: 140px;
+  color: #1b1d1f;
+  margin-top: 200px;
   margin-left: 10vw;
   display: flex;
   display: inline-block;
 }
 .border1{
-  border: 0.7px solid rgba(255,255,255,0.1);
+  border: 0.7px solid rgba(0,0,0,0.1);
   width: 88%;
   margin-left: 10vw;
   margin-top: 70px;
 }
 .border2{
-  border: 0.7px solid rgba(255,255,255,0.1);
+  border: 0.7px solid rgba(0,0,0,0.1);
   width: 88%;
   margin-left: 10vw;
   margin-right: 80px;
@@ -123,7 +124,7 @@ body{
   font-family: Poppins-Medium;
   font-weight: 300;
   font-size: 14px;
-  color: white;
+  color: #1b1d1f;
   text-align: left;
   margin-left: 34vw;
   margin-top: -35px;
@@ -136,7 +137,7 @@ body{
   font-family: Poppins-Medium;
   font-weight: 400;
   font-size: 14px;
-  color: white;
+  color: #1b1d1f;
   text-align: left;
   margin-left: 34vw;
   margin-top: 30px;
@@ -146,7 +147,7 @@ body{
   font-family: Poppins-Light;
   font-weight: 200;
   font-size: 14px;
-  color: rgba(255,255,255,0.7);
+  color: rgba(0,0,0,0.7);
   text-align: left;
   margin-left: 34vw;
   margin-top: -5px;

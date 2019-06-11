@@ -192,7 +192,7 @@ body{
     font-family: Poppins-Medium;
     font-size: 20px;
     color: #1b1d1f;
-    margin-top: 130px;
+    margin-top: 150px;
     margin-left: 10vw;
     display: inline-block;
 }
@@ -200,7 +200,7 @@ body{
   font-family: Poppins-Medium;
   font-weight: 300;
   font-size: 14px;
-  color: white;
+  color: #1b1d1f;
   text-align: left;
   margin-left: 34vw;
   margin-top: -35px;
@@ -213,7 +213,7 @@ body{
   font-family: Poppins-Medium;
   font-weight: 400;
   font-size: 14px;
-  color: white;
+  color: #1b1d1f;
   text-align: left;
   margin: 45px 20px 20px 34vw;
   line-height: 26px;
@@ -222,7 +222,7 @@ body{
   font-family: Poppins-Light;
   font-weight: 200;
   font-size: 14px;
-  color: rgba(255,255,255,0.7);
+  color: rgba(0,0,0,0.7);
   text-align: left;
   margin-left: 34vw;
   margin-top: -5px;

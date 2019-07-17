@@ -68,7 +68,7 @@ body{
          float: right;
          margin-top: 12px;
          margin-bottom: 12px;
-         font-family: Poppins-Medium;
+         font-family: Montserrat-Medium;
     }
     .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover {
          color: #1b1d1f;
@@ -83,7 +83,7 @@ body{
         z-index: 99;
       }
 
-
+@media screen and (max-width: 1599px){
 .container1{
      width: 90%;
      margin-left: auto;
@@ -153,11 +153,88 @@ body{
      float: left;
      list-style:none;
      padding: 0;
-     font-family: Poppins-Medium;
+     font-family: Montserrat-Medium;
      font-size:13px;
      color: #3D3D3D;
      display: block;
   }
+}
+@media screen and (min-width: 1600px){
+.container1{
+     width: 70%;
+     margin-left: auto;
+     margin-right: auto;
+}
+.container1::after{
+     content:"";
+     display: block;
+     clear: both;
+}
+.container2{
+     width: 70%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 10px;
+}
+.container2::after{
+     content:"";
+     display: block;
+     clear: both;
+}
+.row{
+     margin: 0;
+     position: relative;
+     clear: both;
+}
+.row::after{
+     content:"";
+     display: block;
+     clear: both;
+}
+.item{
+     background: white;
+     border: 1px solid rgba(0,0,0,0.06);
+     position: relative;
+     padding: 0;
+     transition: all .2s ease-in-out;
+}
+.img{
+     padding-top: 100%;
+     background-size: 80%;
+     background-position: center; 
+     background-repeat: no-repeat;
+     position: relative;
+     transition: all .2s ease-in-out;
+}
+.cover2{
+     left: 0;
+     top: 0;
+     height: 100%;
+     width: 100%;
+     background-color: transparent;
+     transition: all .2s ease-in-out;
+     position: absolute;
+}
+.img:hover{
+     background-size: 50%;
+     transition: all .2s ease-in-out;
+}
+.img:hover .cover2{
+     background-color: rgba(0, 0, 0, 0.4);
+     transition: all .3s ease-in-out;
+}
+.select-btn-group{
+     width: 100%;
+     margin: 160px 0 30px 0;
+     float: left;
+     list-style:none;
+     padding: 0;
+     font-family: Montserrat-Medium;
+     font-size:13px;
+     color: #3D3D3D;
+     display: block;
+  }
+}
 .btn-select{
 /*     border: 1px solid rgba(0,0,0,0.2);*/
      display: inline;

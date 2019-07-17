@@ -44,11 +44,11 @@ body{
 #banner1{
      width: 100%;
      height: 195vw;
-     background-color: white;
-/*     background-image: url(../img/color.png);
+     background-color: rgba(0,0,0,0.85);
+     background-image: url(../img/color.png);
      background-size: cover;
      background-repeat: no-repeat;
-     background-position: center; */
+     background-position: center; 
 }
 
     .my-container{
@@ -136,20 +136,18 @@ body{
     .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
         background-color: white;
     }
-
-
     }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1599px){
 #banner1{
      margin-top: 0;
      width: 100%;
      height: 780px;
-     background-color: white;
-/*     background-image: url(../img/color.png);
+     background-color: rgba(0,0,0,0.85);
+     background-image: url(../img/color.png);
      background-size: cover;
      background-repeat: no-repeat;
-     background-position: center; */ 
+     background-position: center;  
      position: relative;
 }
 
@@ -175,7 +173,7 @@ body{
     .my-name{
       font-family: Poppins-Light;
       font-weight: 120;
-      font-size: 36px;
+      font-size: 32px;
       margin-top: 255px;
       margin-left: 40vw;
       color: #D15A32;
@@ -186,8 +184,9 @@ body{
       font-family: Poppins-Light;
       font-weight: 150;
       font-size: 18px;
-      margin-top: 420px;
+      margin-top: 400px;
       margin-left: 40vw;
+      margin-right: 10vw;
       color: rgba(0,0,0,0.7);
       text-align: left; 
       list-style: none;
@@ -218,7 +217,84 @@ body{
          background-color: transparent;
     }
     }
+@media screen and (min-width: 1600px){
+#banner1{
+     margin-top: 0;
+     width: 100%;
+     height: 980px;
+     background-color: rgba(0,0,0,0.85);
+     background-image: url(../img/color.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;  
+     position: relative;
+}
 
+    .my-container{
+         width: 55%;
+         margin-left: auto;
+         margin-right: auto;
+         height: 780px;
+         margin-top: 0;
+    }    
+    .my-photo{
+         margin-top: 340px;
+         width: 20em;
+         height: 20em;
+         background-color: white;
+         background-image: url(../img/photo.jpeg);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center; 
+         position: absolute;
+         transition: all .2s ease-in-out;
+    }
+    .my-name{
+      font-family: Poppins-Light;
+      font-weight: 120;
+      font-size: 32px;
+      margin-top: 340px;
+      margin-left: 40vw;
+      color: #D15A32;
+      text-align: left; 
+      position: absolute;     
+    }
+    .identify{
+      font-family: Poppins-Light;
+      font-weight: 150;
+      font-size: 18px;
+      margin-top: 490px;
+      margin-left: 40vw;
+      color: rgba(0,0,0,0.7);
+      text-align: left; 
+      list-style: none;
+      padding-top: 20px;
+      position: absolute;   
+    }
+    .contact{
+      font-family: Poppins-Light;
+      font-weight: 10;
+      font-size: 14px;
+      margin-top: 560px;
+      margin-left: 40vw;
+      color: rgba(0,0,0,0.4);
+      text-align: left; 
+      list-style: none;
+      line-height: 170%;
+      padding: 0;
+      position: absolute;   
+    }
+    .navbar-collapse{
+         float: right;
+         margin-top: 12px;
+         margin-bottom: 12px;
+         font-family: Montserrat-Medium;
+    }
+    .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover {
+         color: #1b1d1f;
+         background-color: transparent;
+    }
+    }
    .border{
         border: 0.5px solid rgba(0,0,0,0.04);
         width: 100%;
@@ -228,8 +304,8 @@ body{
       }
 
 .my-photo:hover{
-     transform: scale(1.01,1.01);
-     box-shadow: 0px 6px 16px rgba(0,0,0,0.16);
+     transform: translateY(-6px);
+     box-shadow: 0px 6px 16px rgba(0,0,0,0.2);
      transition: all .3s ease-in-out;
 }
 
@@ -355,7 +431,7 @@ body{
           text-align: center;
       }
      } 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1599px) {
 .bg2{
      width: 100%;
      height: 300px;
@@ -376,7 +452,42 @@ body{
           color: rgba(0,0,0,0.8);
           text-align: center;
         }
+   .container2{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+   }
      } 
+@media screen and (min-width: 1600px) {
+.bg2{
+     width: 100%;
+     height: 600px;
+     background-color: white;
+     margin-top: 400px;
+}
+    .bg2-title{
+          font-family: Poppins-Bold;
+          font-size: 65px;
+          padding-top: 65px;
+          color: rgba(0,0,0,0.8);
+          text-align: center;
+      }
+    .bg2-descript{
+          font-family: Poppins-Light;
+          font-size: 18px;
+          padding-top: 10px;
+          color: rgba(0,0,0,0.8);
+          text-align: center;
+        }
+   .container2{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -280px;
+   }
+     } 
+
    .border1{
         border: 1px solid #D15A32;
         border-radius: 20px;
@@ -389,12 +500,7 @@ body{
     text-decoration: none;
     }
 
- .container2{
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 0;
- }
+
     .item{
       padding: 0;
       transition: all .2s ease-in-out;
@@ -632,13 +738,46 @@ body{
   background-repeat: no-repeat;
   transition: all .2s ease-in-out;
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1599px) {
 .footer{
   width: 100%;
   height: 75px;
   background-color: #141618;
   margin-top: 80px;
   position: absolute;
+}
+  .footer-last{
+    font-family: Poppins-Light;
+    font-size: 13px;
+    color: white;
+    padding-top: 27px;
+    float: left;
+    position: absolute;
+    left: 36px;
+  }
+  .container6{
+    float: right;
+    right: 36px;
+    top: 16px;
+    position: absolute;
+  }
+  .share{
+    width: 40px;
+    height: 40px;
+    background-size: 40%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 1600px){
+.footer{
+  width: 100%;
+  height: 75px;
+  background-color: #141618;
+  margin-top: 120px;
+  position: absolute;
+  left: 0;
 }
   .footer-last{
     font-family: Poppins-Light;

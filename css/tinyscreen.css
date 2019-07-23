@@ -350,7 +350,7 @@ body{
           text-align: center;
         }
      } 
-     .container1{
+     #container1{
           width: 75%;
           margin-left: auto;
           margin-right: auto;
@@ -452,7 +452,7 @@ body{
           color: rgba(0,0,0,0.8);
           text-align: center;
         }
-   .container2{
+    #container2{
         width: 100%;
         margin-left: auto;
         margin-right: auto;
@@ -480,7 +480,7 @@ body{
           color: rgba(0,0,0,0.8);
           text-align: center;
         }
-   .container2{
+    #container2{
         width: 75%;
         margin-left: auto;
         margin-right: auto;

@@ -582,7 +582,7 @@ body{
           color: rgba(0,0,0,0.8);
           text-align: center;
     }
-    .container3{
+    #container3{
         width: 70%;
         height: 350px;
         margin-left: auto;
@@ -607,7 +607,7 @@ body{
         color: rgba(0,0,0,0.8);
         text-align: center;
     }
-    .container3{
+    #container3{
         width: 65%;
         height: 350px;
         margin-left: auto;

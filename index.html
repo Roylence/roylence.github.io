@@ -209,136 +209,136 @@
             });
         });
 
-        $('document').ready(function(){
-                     function changeImg() {
-                        var container1 = document.getElementById("container1");
-                        var windowWidth = $(window).width();
-                            if(windowWidth < 768) {
+        // $('document').ready(function(){
+        //              function changeImg() {
+        //                 var container1 = document.getElementById("container1");
+        //                 var windowWidth = $(window).width();
+        //                     if(windowWidth < 768) {
                                 
-                            container1.innerHTML = "\
-                            <div id=\"carousel-example-generic\" class=\"carousel slide\" data-ride=\"carousel\"> \
-                  <ol class=\"carousel-indicators\"> \
-                    <li data-target=\"#carousel-example-generic\" data-slide-to=\"0\" class=\"active\"></li> \
-                    <li data-target=\"#carousel-example-generic\" data-slide-to=\"1\"></li> \
-                    <li data-target=\"#carousel-example-generic\" data-slide-to=\"2\"></li> \
-                    <li data-target=\"#carousel-example-generic\" data-slide-to=\"3\"></li> \
-                  </ol> \
-                  <div class=\"carousel-inner\" role=\"listbox\"> \
-                      <div class=\"item active\"> \
-                      <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
-                      <div class=\"article\"> \
-                      <div class=\"time\">2019/5/5</div>\
-                      <div class=\"title2\">#28:新教伦理与良好实践</div>\
-                      <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
-                      </div>\
-                      <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
-                      <div class=\"article\"> \
-                      <div class=\"time\">2019/5/5</div>\
-                      <div class=\"title2\">#28:新教伦理与良好实践</div>\
-                      <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
-                      </div>\
-                      <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
-                      <div class=\"article\"> \
-                      <div class=\"time\">2019/5/5</div>\
-                      <div class=\"title2\">#28:新教伦理与良好实践</div>\
-                      <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
-                      </div>\
-                      <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
-                      <div class=\"article\"> \
-                      <div class=\"time\">2019/5/5</div>\
-                      <div class=\"title2\">#28:新教伦理与良好实践</div>\
-                      <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
-                      </div>\
-                  </div> \
-                  <a class=\"left carousel-control\" href=\"#carousel-example-generic\" role=\"button\" data-slide=\"prev\">\
-                    <span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\
-                    <span class=\"sr-only\">Previous</span>\
-                  </a>\
-                  <a class=\"right carousel-control\" href=\"#carousel-example-generic\" role=\"button\" data-slide=\"next\">\
-                    <span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>\
-                    <span class=\"sr-only\">Next</span>\
-                  </a>\
-                </div>";
-                            }
-                            else if( windowWidth < 992  && windowWidth >= 768) {
+        //                     container1.innerHTML = "\
+        //                     <div id=\"carousel-example-generic\" class=\"carousel slide\" data-ride=\"carousel\"> \
+        //           <ol class=\"carousel-indicators\"> \
+        //             <li data-target=\"#carousel-example-generic\" data-slide-to=\"0\" class=\"active\"></li> \
+        //             <li data-target=\"#carousel-example-generic\" data-slide-to=\"1\"></li> \
+        //             <li data-target=\"#carousel-example-generic\" data-slide-to=\"2\"></li> \
+        //             <li data-target=\"#carousel-example-generic\" data-slide-to=\"3\"></li> \
+        //           </ol> \
+        //           <div class=\"carousel-inner\" role=\"listbox\"> \
+        //               <div class=\"item active\"> \
+        //               <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
+        //               <div class=\"article\"> \
+        //               <div class=\"time\">2019/5/5</div>\
+        //               <div class=\"title2\">#28:新教伦理与良好实践</div>\
+        //               <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
+        //               </div>\
+        //               <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
+        //               <div class=\"article\"> \
+        //               <div class=\"time\">2019/5/5</div>\
+        //               <div class=\"title2\">#28:新教伦理与良好实践</div>\
+        //               <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
+        //               </div>\
+        //               <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
+        //               <div class=\"article\"> \
+        //               <div class=\"time\">2019/5/5</div>\
+        //               <div class=\"title2\">#28:新教伦理与良好实践</div>\
+        //               <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
+        //               </div>\
+        //               <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
+        //               <div class=\"article\"> \
+        //               <div class=\"time\">2019/5/5</div>\
+        //               <div class=\"title2\">#28:新教伦理与良好实践</div>\
+        //               <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
+        //               </div>\
+        //           </div> \
+        //           <a class=\"left carousel-control\" href=\"#carousel-example-generic\" role=\"button\" data-slide=\"prev\">\
+        //             <span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\
+        //             <span class=\"sr-only\">Previous</span>\
+        //           </a>\
+        //           <a class=\"right carousel-control\" href=\"#carousel-example-generic\" role=\"button\" data-slide=\"next\">\
+        //             <span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>\
+        //             <span class=\"sr-only\">Next</span>\
+        //           </a>\
+        //         </div>";
+        //                     }
+        //                     else if( windowWidth < 992  && windowWidth >= 768) {
                                 
-                            container1.innerHTML = "\
-                            <div id=\"carousel-example-generic\" class=\"carousel slide\" data-ride=\"carousel\"> \
-                  <ol class=\"carousel-indicators\"> \
-                    <li data-target=\"#carousel-example-generic\" data-slide-to=\"0\" class=\"active\"></li> \
-                    <li data-target=\"#carousel-example-generic\" data-slide-to=\"1\"></li> \
-                  </ol> \
-                  <div class=\"carousel-inner\" role=\"listbox\"> \
-                      <div class=\"item active\"> \
-                          <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
-                          <div class=\"article\"> \
-                          <div class=\"time\">2019/5/5</div>\
-                          <div class=\"title2\">#28:新教伦理与良好实践</div>\
-                          <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
-                          </div>\
-                          <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
-                          <div class=\"article\"> \
-                          <div class=\"time\">2019/5/5</div>\
-                          <div class=\"title2\">#28:新教伦理与良好实践</div>\
-                          <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
-                          </div>\
-                      </div>\
-                      <div class=\"item\"> \
-                          <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
-                          <div class=\"article\"> \
-                          <div class=\"time\">2019/5/5</div>\
-                          <div class=\"title2\">#28:新教伦理与良好实践</div>\
-                          <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
-                          </div>\
-                          <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
-                          <div class=\"article\"> \
-                          <div class=\"time\">2019/5/5</div>\
-                          <div class=\"title2\">#28:新教伦理与良好实践</div>\
-                          <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
-                          </div>\
-                      </div>\
-                  </div> \
-                  <a class=\"left carousel-control\" href=\"#carousel-example-generic\" role=\"button\" data-slide=\"prev\">\
-                    <span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\
-                    <span class=\"sr-only\">Previous</span>\
-                  </a>\
-                  <a class=\"right carousel-control\" href=\"#carousel-example-generic\" role=\"button\" data-slide=\"next\">\
-                    <span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>\
-                    <span class=\"sr-only\">Next</span>\
-                  </a>\
-                </div>";
-                            }
-                            else{
-                                container1.innerHTML = "\
-                <div class=\"container1\">\
-                          <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
-                          <div class=\"article\"> \
-                          <div class=\"time\">2019/5/5</div>\
-                          <div class=\"title2\">#28:新教伦理与良好实践</div>\
-                          <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
-                          </div>\
-                          <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
-                          <div class=\"article\"> \
-                          <div class=\"time\">2019/5/5</div>\
-                          <div class=\"title2\">#28:新教伦理与良好实践</div>\
-                          <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
-                          </div>\
-                          <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
-                          <div class=\"article\"> \
-                          <div class=\"time\">2019/5/5</div>\
-                          <div class=\"title2\">#28:新教伦理与良好实践</div>\
-                          <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
-                          </div>\
-                          <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
-                          <div class=\"article\"> \
-                          <div class=\"time\">2019/5/5</div>\
-                          <div class=\"title2\">#28:新教伦理与良好实践</div>\
-                          <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
-                          </div>\
-                </div> \
-                                ";
-                            }                   
-                    };
+        //                     container1.innerHTML = "\
+        //                     <div id=\"carousel-example-generic\" class=\"carousel slide\" data-ride=\"carousel\"> \
+        //           <ol class=\"carousel-indicators\"> \
+        //             <li data-target=\"#carousel-example-generic\" data-slide-to=\"0\" class=\"active\"></li> \
+        //             <li data-target=\"#carousel-example-generic\" data-slide-to=\"1\"></li> \
+        //           </ol> \
+        //           <div class=\"carousel-inner\" role=\"listbox\"> \
+        //               <div class=\"item active\"> \
+        //                   <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
+        //                   <div class=\"article\"> \
+        //                   <div class=\"time\">2019/5/5</div>\
+        //                   <div class=\"title2\">#28:新教伦理与良好实践</div>\
+        //                   <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
+        //                   </div>\
+        //                   <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
+        //                   <div class=\"article\"> \
+        //                   <div class=\"time\">2019/5/5</div>\
+        //                   <div class=\"title2\">#28:新教伦理与良好实践</div>\
+        //                   <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
+        //                   </div>\
+        //               </div>\
+        //               <div class=\"item\"> \
+        //                   <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
+        //                   <div class=\"article\"> \
+        //                   <div class=\"time\">2019/5/5</div>\
+        //                   <div class=\"title2\">#28:新教伦理与良好实践</div>\
+        //                   <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
+        //                   </div>\
+        //                   <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
+        //                   <div class=\"article\"> \
+        //                   <div class=\"time\">2019/5/5</div>\
+        //                   <div class=\"title2\">#28:新教伦理与良好实践</div>\
+        //                   <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
+        //                   </div>\
+        //               </div>\
+        //           </div> \
+        //           <a class=\"left carousel-control\" href=\"#carousel-example-generic\" role=\"button\" data-slide=\"prev\">\
+        //             <span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\
+        //             <span class=\"sr-only\">Previous</span>\
+        //           </a>\
+        //           <a class=\"right carousel-control\" href=\"#carousel-example-generic\" role=\"button\" data-slide=\"next\">\
+        //             <span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>\
+        //             <span class=\"sr-only\">Next</span>\
+        //           </a>\
+        //         </div>";
+        //                     }
+        //                     else{
+        //                         container1.innerHTML = "\
+        //         <div class=\"container1\">\
+        //                   <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
+        //                   <div class=\"article\"> \
+        //                   <div class=\"time\">2019/5/5</div>\
+        //                   <div class=\"title2\">#28:新教伦理与良好实践</div>\
+        //                   <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
+        //                   </div>\
+        //                   <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
+        //                   <div class=\"article\"> \
+        //                   <div class=\"time\">2019/5/5</div>\
+        //                   <div class=\"title2\">#28:新教伦理与良好实践</div>\
+        //                   <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
+        //                   </div>\
+        //                   <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
+        //                   <div class=\"article\"> \
+        //                   <div class=\"time\">2019/5/5</div>\
+        //                   <div class=\"title2\">#28:新教伦理与良好实践</div>\
+        //                   <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
+        //                   </div>\
+        //                   <div class=\"row1 col-xs-12 col-sm-6 col-md-4 col-lg-3\"> \
+        //                   <div class=\"article\"> \
+        //                   <div class=\"time\">2019/5/5</div>\
+        //                   <div class=\"title2\">#28:新教伦理与良好实践</div>\
+        //                   <a href=\"http://google.com\" target=\"_blank\"><div><button class=\"my-button\">READ MORE</button></div></a></div>\
+        //                   </div>\
+        //         </div> \
+        //                         ";
+        //                     }                   
+        //             };
 
         $('document').ready(function(){
                      function changeImg() {

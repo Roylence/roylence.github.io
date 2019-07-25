@@ -303,6 +303,7 @@ body{
         z-index: 99;
       }
 
+
 .my-photo:hover{
      transform: translateY(-6px);
      box-shadow: 0px 6px 16px rgba(0,0,0,0.2);
@@ -311,26 +312,28 @@ body{
 
 .bg1{
      width: 100%;
-     height: 450px;
+     height: 500px;
      background-color: transparent;
-/*     background-color: rgba(0,0,0,0.85);*/
-/*     background-image: url(../img/bike.jpg);
+     background-color: rgba(0,0,0,0.85);
+     background-image: url(../img/02.jpg);
      background-size: cover;
-     background-position: center; */
+     background-position: center; 
 }
     @media screen and (max-width: 767px){
     .bg1-title{
           font-family: Poppins-Bold;
           font-size: 45px;
-          padding-top: 45px;
-          color: rgba(0,0,0,0.8);
+          padding-top: 70px;
+/*          color: rgba(0,0,0,0.8);*/
+          color: white;
           text-align: center;
       }
     .bg1-descript{
           font-family: Poppins-Light;
           font-size: 10px;
           padding-top: 10px;
-          color: rgba(0,0,0,0.8);
+/*          color: rgba(0,0,0,0.8);*/
+          color: white;
           text-align: center;
       }
      } 
@@ -338,15 +341,17 @@ body{
     .bg1-title{
           font-family: Poppins-Bold;
           font-size: 65px;
-          padding-top: 65px;
-          color: rgba(0,0,0,0.8);
+          padding-top: 80px;
+/*          color: rgba(0,0,0,0.8);*/
+          color: white;
           text-align: center;
       }
     .bg1-descript{
           font-family: Poppins-Light;
           font-size: 18px;
           padding-top: 10px;
-          color: rgba(0,0,0,0.8);
+/*          color: rgba(0,0,0,0.8);*/
+          color: white;
           text-align: center;
         }
      } 
@@ -357,11 +362,12 @@ body{
           margin-top: 50px;
      }
     .article{
-         height: 450px;
+         height: 400px;
          background: white;
          margin: 2px;
-         box-shadow: 0px 3px 12px rgba(0,0,0,0.04);
+         box-shadow: 0px 3px 12px rgba(0,0,0,0.06);
          padding-top: 10px;
+         border-radius: 2px;
     }
     @media screen and (max-width: 767px){
          .row1:nth-child(2){display: none;}
@@ -379,7 +385,7 @@ body{
          font-family: Poppins-Light;
          font-size: 14px;
          color: rgba(0,0,0,0.8);
-         margin: 60px 20px 20px 35px;
+         margin: 50px 20px 15px 35px;
     }
     .title2{
          font-family: Poppins-Bold;
@@ -414,7 +420,7 @@ body{
      width: 100%;
      height: 240px;
      background-color: white;
-     margin-top: 320px;
+     margin-top: 180px;
 }
     .bg2-title{
           font-family: Poppins-Bold;
@@ -436,12 +442,12 @@ body{
      width: 100%;
      height: 300px;
      background-color: white;
-     margin-top: 380px;
+     margin-top: 290px;
 }
     .bg2-title{
           font-family: Poppins-Bold;
           font-size: 65px;
-          padding-top: 65px;
+          padding-top: 75px;
           color: rgba(0,0,0,0.8);
           text-align: center;
       }
@@ -468,7 +474,7 @@ body{
 }
     .bg2-title{
           font-family: Poppins-Bold;
-          font-size: 65px;
+          font-size: 80px;
           padding-top: 65px;
           color: rgba(0,0,0,0.8);
           text-align: center;
@@ -496,6 +502,13 @@ body{
         margin-right: auto;
         margin-top: 40px;
       }
+/*   .border0{
+        border: 0.5px solid rgba(0,0,0,0);
+        width: 100%;
+        margin-top: 0;
+        position: fixed;
+        z-index: 99;
+      }*/
     a:hover{
     text-decoration: none;
     }

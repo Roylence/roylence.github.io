@@ -84,10 +84,10 @@ body{
       }
 
 .margin,#margin{
-     margin-top: 120px;
+     margin-top: 140px;
 }
      .container5{
-         width: 90%;
+         width: 80%;
          margin-left: auto;
          margin-right: auto;
          background: white;
@@ -146,6 +146,17 @@ body{
           color: rgba(0, 0, 0, 0.4);
           text-decoration: none;
      }
+     .text{
+         font-family: Poppins-Medium;
+         font-weight: 400;
+         font-size: 16px;
+         color: rgba(0,0,0,0.7);
+         margin: 60px 0 40px 0;
+         text-align: justify;
+     }
+
+
+
 .to-top,#to-top{
   width: 36px;
   height: 36px;

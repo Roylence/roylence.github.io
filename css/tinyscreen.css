@@ -392,7 +392,7 @@ body{
          font-size: 26px;
          color: rgba(0,0,0,0.8);
          margin: 0 35px;
-         text-align:justify;
+/*         text-align:justify;*/
     }
     .my-button{
          padding: 13px 32px;

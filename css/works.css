@@ -159,6 +159,8 @@ body{
      display: block;
   }
 }
+
+
 @media screen and (min-width: 1600px){
 .container1{
      width: 70%;
@@ -235,6 +237,7 @@ body{
      display: block;
   }
 }
+
 .btn-select{
 /*     border: 1px solid rgba(0,0,0,0.2);*/
      display: inline;
@@ -259,6 +262,26 @@ body{
      outline-offset: -1px solid rgba(0,0,0,0.8);
      color: white;
 }
+.btn-select-link{
+     display: inline;
+     padding: 0.75vw 3vw;
+     border-radius: 30px;
+     margin: 20px 6px 20px 6px;
+}
+.btn-select-link:hover{
+     background: #ffe300;
+     outline-offset: -1px solid rgba(0,0,0,0.4);
+     color: #3D3D3D;
+     transition: all .3s ease-in-out;
+}
+a{
+     color: #3D3D3D;
+     text-decoration:none;
+}
+a:hover{
+     text-decoration:none;
+}
+
 
 @media screen and (max-width: 767px){
 .footer{

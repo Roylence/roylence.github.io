@@ -48,6 +48,7 @@
 <!--     <a href="#"> --><li class="btn-select" id="ID-tag">ID</li>
 <!--     <a href="#"> --><li class="btn-select" id="Trial-tag">Trial</li>
     <a href="https://icyhuang.zcool.com.cn" target="_blank"><li class="btn-select-link" id="VD-tag">VD</li></a>
+<!--     <a href="#"> --><li class="btn-select" id="Photo-tag">Photo</li>
   </ul>
 </div>
 
@@ -97,6 +98,78 @@
         <div class="img" style="background-image: url(img/QQ.png)"><a href="vlog.html">
         <div class="cover2"></div></a></div>
       </div> 
+<!--       <div class="item02 Photo col-xs-12 col-sm-6 col-md-4">
+        <div class="photo" style="background-image: url(img/花瓶01.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> --> 
+      <div class="item02 Photo col-xs-12 col-sm-3 col-md-3">
+        <div class="photo" style="background-image: url(img/花瓶02.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
+      <div class="item02 Photo col-xs-12 col-sm-6 col-md-6">
+        <div class="photo" style="background-image: url(img/祭龙.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
+      <div class="item02 Photo col-xs-12 col-sm-3 col-md-3">
+        <div class="photo" style="background-image: url(img/广州塔.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
+      <div class="item02 Photo col-xs-12 col-sm-6 col-md-6">
+        <div class="photo" style="background-image: url(img/华为.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
+      <div class="item02 Photo col-xs-12 col-sm-3 col-md-3">
+        <div class="photo" style="background-image: url(img/花瓶01.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
+      <div class="item02 Photo col-xs-12 col-sm-3 col-md-3">
+        <div class="photo" style="background-image: url(img/阿里山.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
+      <div class="item02 Photo col-xs-12 col-sm-6 col-md-6">
+        <div class="photo" style="background-image: url(img/深信服.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
+      <div class="item02 Photo col-xs-12 col-sm-3 col-md-3">
+        <div class="photo" style="background-image: url(img/美术馆.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
+      <div class="item02 Photo col-xs-12 col-sm-3 col-md-3">
+        <div class="photo" style="background-image: url(img/思考者.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
+      <div class="item02 Photo col-xs-12 col-sm-6 col-md-6">
+        <div class="photo" style="background-image: url(img/海浪.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
+      <div class="item02 Photo col-xs-12 col-sm-6 col-md-6">
+        <div class="photo" style="background-image: url(img/华工.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
+      <div class="item02 Photo col-xs-12 col-sm-6 col-md-6">
+        <div class="photo" style="background-image: url(img/湖01.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
+      <div class="item02 Photo col-xs-12 col-sm-6 col-md-6">
+        <div class="photo" style="background-image: url(img/湖02.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
+      <div class="item02 Photo col-xs-12 col-sm-6 col-md-6">
+        <div class="photo" style="background-image: url(img/湖03.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
+      <div class="item02 Photo col-xs-12 col-sm-6 col-md-6">
+        <div class="photo" style="background-image: url(img/湖04.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
+      <div class="item02 Photo col-xs-12 col-sm-6 col-md-6">
+        <div class="photo" style="background-image: url(img/湖05.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
+      <div class="item02 Photo col-xs-12 col-sm-6 col-md-6">
+        <div class="photo" style="background-image: url(img/湖06.jpeg)"><a href="#">
+        <div class="cover2"></div></a></div>
+      </div> 
     </div>
 </div>
 
@@ -118,23 +191,32 @@
             $(this).siblings().removeClass("active1");
         });
         $("#all-tag").click(function(){
-            $(".item").fadeIn(200);  
+            $(".item").fadeIn(200);
+            $(".item02").fadeOut(1);    
         });
         $("#TOB-tag").click(function(){
-            $(".item").fadeOut(1);  
+            $(".item").fadeOut(1); 
+            $(".item02").fadeOut(1);   
             $(".TOB").fadeIn(200);
         });
         $("#TOC-tag").click(function(){
-            $(".item").fadeOut(1);  
+            $(".item").fadeOut(1); 
+            $(".item02").fadeOut(1);   
             $(".TOC").fadeIn(200);
         });
         $("#ID-tag").click(function(){
             $(".item").fadeOut(1);  
+            $(".item02").fadeOut(1);  
             $(".ID").fadeIn(200);
         });
         $("#Trial-tag").click(function(){
-            $(".item").fadeOut(1);  
+            $(".item").fadeOut(1);
+            $(".item02").fadeOut(1);   
             $(".Trial").fadeIn(200);
+        });
+        $("#Photo-tag").click(function(){
+            $(".item").fadeOut(1);  
+            $(".Photo").fadeIn(200);
         });
    });
         $(document).ready(function(){

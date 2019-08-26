@@ -138,6 +138,18 @@ body{
      position: relative;
      transition: all .2s ease-in-out;
 }
+img{
+     width: 95%;
+     padding-top: 150%; 
+     background: transparent;
+     background-size: 100%;
+     background-position: center; 
+     background-repeat: no-repeat;
+     position: relative;
+     margin: auto;
+     margin-top: 180px;
+     transition: all .2s ease-in-out;
+}
 .photo{
      height: 40vw;
      background-size: 120%;
@@ -241,6 +253,18 @@ body{
      position: relative;
      transition: all .2s ease-in-out;
 }
+img{
+     width: 50%;
+     padding-top: 100%; 
+     background: transparent;
+     background-size: 100%;
+     background-position: center; 
+     background-repeat: no-repeat;
+     position: relative;
+     margin: auto;
+     margin-top: 0;
+     transition: all .2s ease-in-out;
+}
 .photo{
      height: 27vw;
      background-size: 110%;
@@ -337,6 +361,18 @@ body{
      padding: 0;
      transition: all .2s ease-in-out;
 }
+img{
+     width: 30%;
+     padding-top: 50%; 
+     background: transparent;
+     background-size: 100%;
+     background-position: center; 
+     background-repeat: no-repeat;
+     position: relative;
+     margin: auto;
+     margin-top: 0;
+     transition: all .2s ease-in-out;
+}
 .img{
      padding-top: 100%;
      background-size: 80%;
@@ -393,6 +429,16 @@ body{
      display: block;
   }
 }
+
+/*#myModal{
+     width: 70vw;
+     height: 50vw; 
+     background: white;
+     border: 1px solid rgba(0,0,0,0.06);
+     position: relative;
+     padding: 0;
+     transition: all .2s ease-in-out;
+}*/
 
 .btn-select{
 /*     border: 1px solid rgba(0,0,0,0.2);*/

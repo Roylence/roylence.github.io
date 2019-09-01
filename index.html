@@ -42,7 +42,7 @@
 
 <nav class="navbar-small"></nav>
 <div class="my-container">
-    <a href="about.html"><div class="my-photo"></div></a>
+    <a href="about.html"><div class="my-photo" style="background-image: url(img/photo.jpeg)"></div></a>
     <div class="my-text">
         <div class="my-name">黄冰冰</div>
         <div class="identify">华南理工大学 · 信息与交互设计 研究生</div>
@@ -73,7 +73,7 @@
    <!--  <iframe class="my-audio" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=28959250&auto=1&height=66"></iframe>
  -->
  
-    <div class="bg1">
+    <div class="bg1" style="background-image: url(img/02.jpg)">
          <div class="bg1-title">Thoughts</div>
          <div class="bg1-descript">A problem well stated is a problem half solved.</div>
          <div class="border1"></div>
@@ -199,6 +199,7 @@
 
     <a href="#banner1"><div class="to-top" style="background-image: url(img/back.png)"></div></a>
     <script type="text/javascript">
+
         $(".icon-email").click(function(){
         $(this).toggleClass("animation-move");
         });
@@ -214,6 +215,22 @@
                 }
             });
         });
+
+        var images = $('.my-photo''.bg1''.img-work');
+        var n = 0;
+        lazyload();
+        $(window).scroll(lazyload);
+
+        function lazyload(){
+            for(var i = n;i<images.length; i++){
+                if(images.eq(i).attr("style") == " "){
+                    if(images.eq(i).offset().top - $(window).scrollTop() < $(window).height()){
+                        images.eq(i).attr("style",images.eq(i).attr("style-data"));
+                        n = n + 1;
+                    }
+                }
+            }
+        }
 
         $("#carousel-example-generic").carousel({
              pause:true,

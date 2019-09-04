@@ -113,7 +113,7 @@ body{
 
 
 .margin,#margin{
-     margin-top: 140px;
+     margin-top: 75px;
 }
       .slide2,#slide2{
       padding-top: 56%;
@@ -170,7 +170,7 @@ body{
           margin-top: 32px;
      }
      a{
-          color: rgba(0, 0, 0, 0.8);
+          color: white;
      }
      a:hover{
           color: rgba(0, 0, 0, 0.4);
@@ -185,8 +185,19 @@ body{
          text-align: justify;
      }
 
-
-
+.my-button{
+  padding: 16px 48px;
+  border: 0 solid rgba(0,0,0,0.4);
+  background: #9d48ef;
+  outline: none;
+  font-family: Poppins-Light;
+  font-size: 14px;
+  color: white;
+  box-sizing: border-box;
+  position: absolute;
+  left: 35px;
+  top: 45px;
+}
 .to-top,#to-top{
   width: 36px;
   height: 36px;

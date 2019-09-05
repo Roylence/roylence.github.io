@@ -197,9 +197,22 @@
              </div>
     </div>
 
-    <a href="#banner1"><div class="to-top" style="background-image: url(img/back.png)"></div></a>
-    <script type="text/javascript">
+    <div class="footer">
+        <div class="footer-last">© 2019 Icy'website All rights reserved</div>
+        <div class="container6">
+             <a href="http://www.facebook.com"><div class="share" style="background-image: url(img/foot/facebook.png)"></div></a>
+             <a href="https://www.twitter.com"><div class="share" style="background-image: url(img/foot/twitter.png)"></div></a>
+             <a href="https://www.pinterest.com"><div class="share" style="background-image: url(img/foot/pinterest.png)"></div></a>
+             <a href="https://www.behance.com/"><div class="share" style="background-image: url(img/foot/behance.png)"></div></a>
+             <a href="https://www.instagram.com"><div class="share" style="background-image: url(img/foot/instagram.png)"></div></a>
+        </div>
+    </div>
 
+    <a href="#banner1"><div class="to-top" style="background-image: url(img/back.png)"></div></a>
+
+</body>
+
+    <script type="text/javascript">
         $(".icon-email").click(function(){
         $(this).toggleClass("animation-move");
         });
@@ -208,19 +221,18 @@
             $(window).scroll(function(){
                 if($(window).scrollTop()>300){
                     $(".to-top").fadeIn();
-                    $(".navbar navbar-default").addClass("navbar-small");
                 }else{
-                    $(".to-top").fadeOut();
-                    $(".navbar navbar-default").removeClass("navbar-small");
+                    $(".to-top").css('display','none');
                 }
             });
         });
+    </script>
 
+    <script type="text/javascript">
         var images = $('.my-photo''.bg1''.img-work');
         var n = 0;
         lazyload();
         $(window).scroll(lazyload);
-
         function lazyload(){
             for(var i = n;i<images.length; i++){
                 if(images.eq(i).attr("style") == " "){
@@ -231,12 +243,17 @@
                 }
             }
         }
+    </script>
 
+    <script type="text/javascript">
         $("#carousel-example-generic").carousel({
              pause:true,
              interval:false
         });
-        // $('document').ready(function(){
+    </script>
+
+</html>
+<!--         // $('document').ready(function(){
         //              function changeImg() {
         //                 var container1 = document.getElementById("container1");
         //                 var windowWidth = $(window).width();
@@ -553,23 +570,5 @@
                         
         //             };
         //             window.addEventListener('resize', changeImg, false);
-        // });
+        // }); -->
 
-    </script>
-
-
-<div class="footer">
-    <div class="footer-last">© 2019 Icy'website All rights reserved</div>
-    <div class="container6">
-         <a href="http://www.facebook.com"><div class="share" style="background-image: url(img/foot/facebook.png)"></div></a>
-         <a href="https://www.twitter.com"><div class="share" style="background-image: url(img/foot/twitter.png)"></div></a>
-         <a href="https://www.pinterest.com"><div class="share" style="background-image: url(img/foot/pinterest.png)"></div></a>
-         <a href="https://www.behance.com/"><div class="share" style="background-image: url(img/foot/behance.png)"></div></a>
-         <a href="https://www.instagram.com"><div class="share" style="background-image: url(img/foot/instagram.png)"></div></a>
-    </div>
-
-</div>
-
-</body>
-
-</html>

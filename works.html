@@ -226,7 +226,6 @@
         });
    });
 
-    //图片放大
     $("#myModal").hide();
     $(function(){
         $(".photo").mouseover(function(){
@@ -262,6 +261,21 @@
                 }
         });
    });
+
+        var images = $('div.photo');
+        var n = 0;
+        lazyload();
+        $(window).scroll(lazyload);
+        function lazyload(){
+            for(var i = n;i<images.length; i++){
+                if(images(i).style.backgroundImage == "url(img/loading.gif)"){
+                    if(images.eq(i).offset().top - $(window).scrollTop() < $(window).height()){
+                        images.eq(i).css("background-image", "url(" + images.eq(i).attr("data-src") + ")");
+                        n = n + 1;
+                    }
+                }
+            }
+        }
 
 </script>
 

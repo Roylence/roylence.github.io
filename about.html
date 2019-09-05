@@ -210,9 +210,26 @@
          <a href="https://www.behance.com/"><div class="share" style="background-image: url(img/foot/behance.png)"></div></a>
          <a href="https://www.instagram.com"><div class="share" style="background-image: url(img/foot/instagram.png)"></div></a>
     </div>
-
 </div>
 
+<a href="#banner1"><div class="to-top" style="background-image: url(img/back.png)"></div></a>
+
 </body>
+
+<script type="text/javascript">
+    $(".icon-email").click(function(){
+    $(this).toggleClass("animation-move");
+    });
+    $(document).ready(function(){
+        $(".to-top").css('display','none');
+        $(window).scroll(function(){
+            if($(window).scrollTop()>300){
+                $(".to-top").fadeIn();
+            }else{
+                $(".to-top").css('display','none');
+            }
+        });
+    });
+</script>
 
 </html>

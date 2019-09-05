@@ -335,3 +335,16 @@ body{
     display: inline-block;
   }
 }
+.to-top{
+  width: 36px;
+  height: 36px;
+  background-color: #1b1d1f;
+  border-radius: 4px;
+  position: fixed;
+  right: 10px;
+  bottom: 85px;
+  background-size: 35%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  z-index: 98;
+}

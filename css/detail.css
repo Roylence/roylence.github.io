@@ -141,7 +141,7 @@ body{
      width: 100%;
      height: 80px;
      background-color: rgba(0, 0, 0, 0.04);
-     margin-top: 80px;
+     margin-top: 30px;
      display: flex;
      display: inline-block;
 }
@@ -151,6 +151,7 @@ body{
           float: left;
           left: 56px;
           margin-top: 32px;
+          color: rgba(0,0,0,0.7);
           position: absolute;
      }
      .nav-bottom-middle{
@@ -158,6 +159,7 @@ body{
           font-size: 12px;
           display: flex;
           justify-content: center;
+          color: rgba(0,0,0,0.7);
           margin-top: 32px;
      }
      .nav-bottom-right{
@@ -166,16 +168,17 @@ body{
           position: absolute;
           display: flex;
           justify-content: right;
+          color: rgba(0,0,0,0.7);
           right: 56px;
           margin-top: 32px;
      }
-     a{
+/*     a{
           color: white;
      }
      a:hover{
           color: rgba(0, 0, 0, 0.4);
           text-decoration: none;
-     }
+     }*/
      .text{
          font-family: Poppins-Medium;
          font-weight: 400;
@@ -201,11 +204,11 @@ body{
 .to-top,#to-top{
   width: 36px;
   height: 36px;
-  background-color: #1b1d1f;
+  background-color: #313131;
   border-radius: 4px;
   position: fixed;
   right: 10px;
-  bottom: 10px;
+  bottom: 22px;
   background-size: 35%;
   background-position: center; 
   background-repeat: no-repeat;

@@ -405,7 +405,7 @@ body{
          box-sizing: border-box;
          position: absolute;
          left: 35px;
-         top: 60px;
+         bottom: 60px;
     }
     .my-button:hover{
          background: #1b1d1f;

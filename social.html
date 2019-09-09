@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <title>IcysDesign</title>
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet"  href="css/thought-detail.css">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid content">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">IcysDesign</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="Thoughts.html">Thoughts<span class="sr-only">(current)</span></a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+<div class="border"></div>
+</nav>
+
+<div id="banner1" style="background-image: url(img/social/4.png)">
+</div>
+
+<div class="container1">
+         <div class="time">2019/5/2</div>
+         <div class="title2">#1:社交网络分析-虚拟世界里的真实表达</div>
+         <div class="text">
+         <div class="title3">前言</div>
+         <p style="text-indent:2em">在互联网刚刚出现的那几年里，我们格外热衷于自我表达。而现在，很多人说自己已经不再表达。是什么使我们失去了表达？我们失去的究竟是表达欲本身，还是表达的场所呢？
+         </p>
+       </br>
+
+           <img src="img/social/1.png" alt="Smiley face" width="100%" height="60%">
+           <img src="img/social/2.png" alt="Smiley face" width="100%" height="60%">
+           <img src="img/social/3.png" alt="Smiley face" width="100%" height="60%">
+           <img src="img/social/4.png" alt="Smiley face" width="100%" height="60%">
+           <img src="img/social/5.png" alt="Smiley face" width="100%" height="60%">
+           <img src="img/social/6.png" alt="Smiley face" width="100%" height="60%">
+           <img src="img/social/7.png" alt="Smiley face" width="100%" height="60%">
+           <img src="img/social/8.png" alt="Smiley face" width="100%" height="60%">
+           <img src="img/social/9.png" alt="Smiley face" width="100%" height="60%">
+           <img src="img/social/10.png" alt="Smiley face" width="100%" height="60%">
+           <img src="img/social/11.png" alt="Smiley face" width="100%" height="60%">
+           <img src="img/social/12.png" alt="Smiley face" width="100%" height="60%">
+           <img src="img/social/13.png" alt="Smiley face" width="100%" height="60%">
+           <img src="img/social/14.png" alt="Smiley face" width="100%" height="60%">
+           <img src="img/social/15.png" alt="Smiley face" width="100%" height="60%">
+           <img src="img/social/16.png" alt="Smiley face" width="100%" height="60%">
+
+
+         <a href="Thoughts.html" target="_blank"><div><button class="my-button">BACK</button></div></a>
+         </div>
+</div>
+
+    <a href="#banner1"><div class="to-top" style="background-image: url(img/back.png)"></div></a>
+    <script type="text/javascript">
+        $(".icon-email").click(function(){
+        $(this).toggleClass("animation-move");
+        });
+        $(document).ready(function(){
+            $(".to-top").fadeOut();
+            $(window).scroll(function(){
+                if($(window).scrollTop()>300){
+                    $(".to-top").fadeIn();
+                    $(".navbar navbar-default").addClass("navbar-small");
+                }else{
+                    $(".to-top").fadeOut();
+                    $(".navbar navbar-default").removeClass("navbar-small");
+                }
+            });
+        });
+
+        $("#carousel-example-generic").carousel({
+        pause:true,
+        interval:false
+        });
+
+    </script>
+
+
+<div class="footer">
+    <div class="footer-last">© 2019 Icysdesign All rights reserved</div>
+    <div class="container6">
+         <a href="http://www.facebook.com"><div class="share" style="background-image: url(img/foot/facebook.png)"></div></a>
+         <a href="https://www.twitter.com"><div class="share" style="background-image: url(img/foot/twitter.png)"></div></a>
+         <a href="https://www.pinterest.com"><div class="share" style="background-image: url(img/foot/pinterest.png)"></div></a>
+         <a href="https://www.behance.com/"><div class="share" style="background-image: url(img/foot/behance.png)"></div></a>
+         <a href="https://www.instagram.com"><div class="share" style="background-image: url(img/foot/instagram.png)"></div></a>
+    </div>
+
+</div>
+
+</body>
+
+</html>

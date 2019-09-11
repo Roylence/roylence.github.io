@@ -170,6 +170,7 @@ body{
          box-sizing: border-box;
          position: absolute;
          bottom: 26px;
+         left: 44px;
      }
      .title1{
          font-family: Poppins-Bold;

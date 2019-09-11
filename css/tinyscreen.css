@@ -60,7 +60,7 @@ body{
     } 
     .my-photo{
          width: 70%;
-         margin-top: 160px;
+         margin-top: 150px;
          padding-top: 75%;
          background-color: white;
 /*         background-image: url(../img/photo.jpeg);*/
@@ -77,7 +77,7 @@ body{
     .my-name{
       font-family: Poppins-Light;
       font-weight: 120;
-      font-size: 28px;
+      font-size: 26px;
       margin-top: 113vw;
       margin-left: 0;
       color: #D15A32;
@@ -87,7 +87,7 @@ body{
     .identify{
       font-family: Poppins-Light;
       font-weight: 150;
-      font-size: 16px;
+      font-size: 14px;
       margin-top: 126vw;
       margin-left: 0;
       color: rgba(0,0,0,0.7);
@@ -99,7 +99,7 @@ body{
     .contact{
       font-family: Poppins-Light;
       font-weight: 10;
-      font-size: 14px;
+      font-size: 12px;
       margin-top: 142vw;
       margin-left: 0;
       color: rgba(0,0,0,0.4);
@@ -359,7 +359,7 @@ body{
           width: 75%;
           margin-left: auto;
           margin-right: auto;
-          margin-top: 50px;
+          margin-top: 65px;
      }
     .article{
          height: 450px;
@@ -624,7 +624,7 @@ body{
 @media screen and (max-width: 767px){
 .bg2{
      width: 100%;
-     height: 240px;
+     height: 200px;
      background-color: white;
      margin-top: 180px;
 }
@@ -646,7 +646,7 @@ body{
 @media screen and (min-width: 768px) and (max-width: 1599px) {
 .bg2{
      width: 100%;
-     height: 300px;
+     height: 270px;
      background-color: white;
      margin-top: 290px;
 }
@@ -674,7 +674,7 @@ body{
 @media screen and (min-width: 1600px) {
 .bg2{
      width: 100%;
-     height: 600px;
+     height: 570px;
      background-color: white;
      margin-top: 400px;
 }
